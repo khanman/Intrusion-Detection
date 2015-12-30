@@ -1,0 +1,694 @@
+{
+    "model": [
+        {
+            "syscall_1": "execve",
+            "syscall_2": "brk"
+        },
+        {
+            "syscall_1": "brk",
+            "syscall_2": "access"
+        },
+        {
+            "syscall_1": "access",
+            "syscall_2": "mmap"
+        },
+        {
+            "syscall_1": "mmap",
+            "syscall_2": "access"
+        },
+        {
+            "syscall_1": "access",
+            "syscall_2": "open"
+        },
+        {
+            "syscall_1": "open",
+            "syscall_2": "fstat"
+        },
+        {
+            "syscall_1": "fstat",
+            "syscall_2": "mmap"
+        },
+        {
+            "syscall_1": "mmap",
+            "syscall_2": "close"
+        },
+        {
+            "syscall_1": "close",
+            "syscall_2": "access"
+        },
+        {
+            "syscall_1": "open",
+            "syscall_2": "read"
+        },
+        {
+            "syscall_1": "read",
+            "syscall_2": "fstat"
+        },
+        {
+            "syscall_1": "mmap",
+            "syscall_2": "mprotect"
+        },
+        {
+            "syscall_1": "mprotect",
+            "syscall_2": "mmap"
+        },
+        {
+            "syscall_1": "mmap",
+            "syscall_2": "mmap"
+        },
+        {
+            "syscall_1": "close",
+            "syscall_2": "mmap"
+        },
+        {
+            "syscall_1": "mmap",
+            "syscall_2": "arch_prctl"
+        },
+        {
+            "syscall_1": "arch_prctl",
+            "syscall_2": "mprotect"
+        },
+        {
+            "syscall_1": "mprotect",
+            "syscall_2": "mprotect"
+        },
+        {
+            "syscall_1": "mprotect",
+            "syscall_2": "munmap"
+        },
+        {
+            "syscall_1": "munmap",
+            "syscall_2": "brk"
+        },
+        {
+            "syscall_1": "brk",
+            "syscall_2": "brk"
+        },
+        {
+            "syscall_1": "brk",
+            "syscall_2": "getcwd"
+        },
+        {
+            "syscall_1": "getcwd",
+            "syscall_2": "lstat"
+        },
+        {
+            "syscall_1": "lstat",
+            "syscall_2": "open"
+        },
+        {
+            "syscall_1": "mmap",
+            "syscall_2": "read"
+        },
+        {
+            "syscall_1": "read",
+            "syscall_2": "read"
+        },
+        {
+            "syscall_1": "read",
+            "syscall_2": "close"
+        },
+        {
+            "syscall_1": "close",
+            "syscall_2": "munmap"
+        },
+        {
+            "syscall_1": "munmap",
+            "syscall_2": "fstat"
+        },
+        {
+            "syscall_1": "mmap",
+            "syscall_2": "write"
+        },
+        {
+            "syscall_1": "write",
+            "syscall_2": "exit_group"
+        },
+        {
+            "syscall_1": "exit_group",
+            "syscall_2": "execve"
+        },
+        {
+            "syscall_1": "lstat",
+            "syscall_2": "rt_sigaction"
+        },
+        {
+            "syscall_1": "rt_sigaction",
+            "syscall_2": "rt_sigaction"
+        },
+        {
+            "syscall_1": "rt_sigaction",
+            "syscall_2": "rt_sigprocmask"
+        },
+        {
+            "syscall_1": "rt_sigprocmask",
+            "syscall_2": "clone"
+        },
+        {
+            "syscall_1": "clone",
+            "syscall_2": "wait4"
+        },
+        {
+            "syscall_1": "wait4",
+            "syscall_2": "rt_sigaction"
+        },
+        {
+            "syscall_1": "rt_sigprocmask",
+            "syscall_2": "execve"
+        },
+        {
+            "syscall_1": "munmap",
+            "syscall_2": "getpid"
+        },
+        {
+            "syscall_1": "getpid",
+            "syscall_2": "rt_sigaction"
+        },
+        {
+            "syscall_1": "rt_sigaction",
+            "syscall_2": "geteuid"
+        },
+        {
+            "syscall_1": "geteuid",
+            "syscall_2": "brk"
+        },
+        {
+            "syscall_1": "brk",
+            "syscall_2": "getppid"
+        },
+        {
+            "syscall_1": "getppid",
+            "syscall_2": "stat"
+        },
+        {
+            "syscall_1": "stat",
+            "syscall_2": "stat"
+        },
+        {
+            "syscall_1": "stat",
+            "syscall_2": "rt_sigaction"
+        },
+        {
+            "syscall_1": "rt_sigaction",
+            "syscall_2": "clone"
+        },
+        {
+            "syscall_1": "wait4",
+            "syscall_2": "execve"
+        },
+        {
+            "syscall_1": "brk",
+            "syscall_2": "open"
+        },
+        {
+            "syscall_1": "open",
+            "syscall_2": "open"
+        },
+        {
+            "syscall_1": "munmap",
+            "syscall_2": "open"
+        },
+        {
+            "syscall_1": "fstat",
+            "syscall_2": "open"
+        },
+        {
+            "syscall_1": "fstat",
+            "syscall_2": "fadvise64"
+        },
+        {
+            "syscall_1": "fadvise64",
+            "syscall_2": "mmap"
+        },
+        {
+            "syscall_1": "read",
+            "syscall_2": "write"
+        },
+        {
+            "syscall_1": "write",
+            "syscall_2": "read"
+        },
+        {
+            "syscall_1": "read",
+            "syscall_2": "munmap"
+        },
+        {
+            "syscall_1": "munmap",
+            "syscall_2": "close"
+        },
+        {
+            "syscall_1": "close",
+            "syscall_2": "close"
+        },
+        {
+            "syscall_1": "close",
+            "syscall_2": "exit_group"
+        },
+        {
+            "syscall_1": "exit_group",
+            "syscall_2": "rt_sigreturn"
+        },
+        {
+            "syscall_1": "rt_sigreturn",
+            "syscall_2": "exit_group"
+        },
+        {
+            "syscall_1": "exit_group",
+            "syscall_2": "rt_sigaction"
+        },
+        {
+            "syscall_1": "rt_sigprocmask",
+            "syscall_2": "brk"
+        },
+        {
+            "syscall_1": "brk",
+            "syscall_2": "exit_group"
+        },
+        {
+            "syscall_1": "write",
+            "syscall_2": "write"
+        },
+        {
+            "syscall_1": "write",
+            "syscall_2": "close"
+        }
+    ],
+    "mimicry_possible": false,
+    "model_augmented": [
+        {
+            "syscall_1": "close",
+            "syscall_1_arg": null,
+            "syscall_2": "access",
+            "syscall_2_arg": "/etc/ld.so.nohwcap"
+        },
+        {
+            "syscall_1": "exit_group",
+            "syscall_1_arg": null,
+            "syscall_2": "rt_sigaction",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "access",
+            "syscall_1_arg": "/etc/ld.so.",
+            "syscall_2": "open",
+            "syscall_2_arg": "/"
+        },
+        {
+            "syscall_1": "execve",
+            "syscall_1_arg": "",
+            "syscall_2": "brk",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "mmap",
+            "syscall_1_arg": null,
+            "syscall_2": "read",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "rt_sigaction",
+            "syscall_1_arg": null,
+            "syscall_2": "clone",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "exit_group",
+            "syscall_1_arg": null,
+            "syscall_2": "rt_sigreturn",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "getppid",
+            "syscall_1_arg": null,
+            "syscall_2": "stat",
+            "syscall_2_arg": "/home/adjacentmonitor/.ssh/prset03"
+        },
+        {
+            "syscall_1": "mmap",
+            "syscall_1_arg": null,
+            "syscall_2": "mprotect",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "brk",
+            "syscall_1_arg": null,
+            "syscall_2": "getcwd",
+            "syscall_2_arg": "/home/adjacentmonitor/.ssh/prset03"
+        },
+        {
+            "syscall_1": "mprotect",
+            "syscall_1_arg": null,
+            "syscall_2": "munmap",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "read",
+            "syscall_1_arg": null,
+            "syscall_2": "read",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "open",
+            "syscall_1_arg": "/usr/",
+            "syscall_2": "open",
+            "syscall_2_arg": "/usr/"
+        },
+        {
+            "syscall_1": "exit_group",
+            "syscall_1_arg": null,
+            "syscall_2": "execve",
+            "syscall_2_arg": "./prset03"
+        },
+        {
+            "syscall_1": "mmap",
+            "syscall_1_arg": null,
+            "syscall_2": "close",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "brk",
+            "syscall_1_arg": null,
+            "syscall_2": "open",
+            "syscall_2_arg": "/usr/lib/locale/locale-archive"
+        },
+        {
+            "syscall_1": "arch_prctl",
+            "syscall_1_arg": null,
+            "syscall_2": "mprotect",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "mmap",
+            "syscall_1_arg": null,
+            "syscall_2": "access",
+            "syscall_2_arg": "/etc/ld.so.preload"
+        },
+        {
+            "syscall_1": "brk",
+            "syscall_1_arg": null,
+            "syscall_2": "access",
+            "syscall_2_arg": "/etc/ld.so.nohwcap"
+        },
+        {
+            "syscall_1": "mmap",
+            "syscall_1_arg": null,
+            "syscall_2": "mmap",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "rt_sigreturn",
+            "syscall_1_arg": null,
+            "syscall_2": "exit_group",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "stat",
+            "syscall_1_arg": null,
+            "syscall_2": "rt_sigaction",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "brk",
+            "syscall_1_arg": null,
+            "syscall_2": "exit_group",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "mmap",
+            "syscall_1_arg": null,
+            "syscall_2": "write",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "read",
+            "syscall_1_arg": null,
+            "syscall_2": "write",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "fadvise64",
+            "syscall_1_arg": null,
+            "syscall_2": "mmap",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "lstat",
+            "syscall_1_arg": "/home/adjacentmonitor/.ssh/prset03/Makefile",
+            "syscall_2": "open",
+            "syscall_2_arg": "/home/adjacentmonitor/.ssh/prset03/Makefile"
+        },
+        {
+            "syscall_1": "open",
+            "syscall_1_arg": "/lib/x86_64-linux-gnu/lib",
+            "syscall_2": "read",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "close",
+            "syscall_1_arg": null,
+            "syscall_2": "munmap",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "getcwd",
+            "syscall_1_arg": "/home/adjacentmonitor/.ssh/prset03",
+            "syscall_2": "lstat",
+            "syscall_2_arg": "/home/adjacentmonitor/.ssh/prset03/Makefile"
+        },
+        {
+            "syscall_1": "mprotect",
+            "syscall_1_arg": null,
+            "syscall_2": "mprotect",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "fstat",
+            "syscall_1_arg": null,
+            "syscall_2": "fadvise64",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "write",
+            "syscall_1_arg": null,
+            "syscall_2": "write",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "clone",
+            "syscall_1_arg": null,
+            "syscall_2": "wait4",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "brk",
+            "syscall_1_arg": null,
+            "syscall_2": "brk",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "write",
+            "syscall_1_arg": null,
+            "syscall_2": "read",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "read",
+            "syscall_1_arg": null,
+            "syscall_2": "munmap",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "geteuid",
+            "syscall_1_arg": null,
+            "syscall_2": "brk",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "munmap",
+            "syscall_1_arg": null,
+            "syscall_2": "getpid",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "munmap",
+            "syscall_1_arg": null,
+            "syscall_2": "brk",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "wait4",
+            "syscall_1_arg": null,
+            "syscall_2": "rt_sigaction",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "munmap",
+            "syscall_1_arg": null,
+            "syscall_2": "fstat",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "getpid",
+            "syscall_1_arg": null,
+            "syscall_2": "rt_sigaction",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "rt_sigprocmask",
+            "syscall_1_arg": null,
+            "syscall_2": "clone",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "open",
+            "syscall_1_arg": "/",
+            "syscall_2": "fstat",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "close",
+            "syscall_1_arg": null,
+            "syscall_2": "close",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "read",
+            "syscall_1_arg": null,
+            "syscall_2": "close",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "mprotect",
+            "syscall_1_arg": null,
+            "syscall_2": "mmap",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "execve",
+            "syscall_1_arg": "./prset03",
+            "syscall_2": "brk",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "rt_sigprocmask",
+            "syscall_1_arg": null,
+            "syscall_2": "execve",
+            "syscall_2_arg": "/bin/sh"
+        },
+        {
+            "syscall_1": "access",
+            "syscall_1_arg": "/etc/ld.so.nohwcap",
+            "syscall_2": "mmap",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "lstat",
+            "syscall_1_arg": "/home/adjacentmonitor/.ssh/prset03/Makefile",
+            "syscall_2": "rt_sigaction",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "read",
+            "syscall_1_arg": null,
+            "syscall_2": "fstat",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "close",
+            "syscall_1_arg": null,
+            "syscall_2": "mmap",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "stat",
+            "syscall_1_arg": "/home/adjacentmonitor/.ssh/prset03",
+            "syscall_2": "stat",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "wait4",
+            "syscall_1_arg": null,
+            "syscall_2": "execve",
+            "syscall_2_arg": "/bin/cat"
+        },
+        {
+            "syscall_1": "rt_sigaction",
+            "syscall_1_arg": null,
+            "syscall_2": "geteuid",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "munmap",
+            "syscall_1_arg": null,
+            "syscall_2": "close",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "close",
+            "syscall_1_arg": null,
+            "syscall_2": "exit_group",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "rt_sigaction",
+            "syscall_1_arg": null,
+            "syscall_2": "rt_sigprocmask",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "munmap",
+            "syscall_1_arg": null,
+            "syscall_2": "open",
+            "syscall_2_arg": "/usr/lib/locale/en_US.UTF-8/LC_IDENTIFICATION"
+        },
+        {
+            "syscall_1": "fstat",
+            "syscall_1_arg": null,
+            "syscall_2": "mmap",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "write",
+            "syscall_1_arg": null,
+            "syscall_2": "exit_group",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "rt_sigaction",
+            "syscall_1_arg": null,
+            "syscall_2": "rt_sigaction",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "rt_sigprocmask",
+            "syscall_1_arg": null,
+            "syscall_2": "brk",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "fstat",
+            "syscall_1_arg": null,
+            "syscall_2": "open",
+            "syscall_2_arg": "/home/adjacentmonitor/.ssh/prset03/Makefile"
+        },
+        {
+            "syscall_1": "brk",
+            "syscall_1_arg": null,
+            "syscall_2": "getppid",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "write",
+            "syscall_1_arg": null,
+            "syscall_2": "close",
+            "syscall_2_arg": null
+        },
+        {
+            "syscall_1": "mmap",
+            "syscall_1_arg": null,
+            "syscall_2": "arch_prctl",
+            "syscall_2_arg": null
+        }
+    ],
+    "mimicry_augmented_possible": true
+}
